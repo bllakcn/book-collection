@@ -1,0 +1,19 @@
+{
+  "books":[
+    {
+      "id":1,
+      "title":"Lord of the Rings",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id":2,
+      "title":"Hobbit",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id":3,
+      "title":"Game of Thrones",
+      "author": "George R.R. Martin"
+    }
+  ]
+}
