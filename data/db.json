@@ -1,19 +1,25 @@
 {
-  "books":[
+  "books": [
     {
-      "id":1,
-      "title":"Lord of the Rings",
-      "author": "J.R.R. Tolkien"
+      "id": 1,
+      "title": "Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "summary": "Frodo, a Christlike figure, learns that the ring has the power to control the entire world and, he discovers, to corrupt its owner. A fellowship of hobbits, elves, dwarfs, and men is formed to destroy the ring by casting it into the volcanic fires of the Crack of Doom, where it was forged.",
+      "rating": "5"
     },
     {
-      "id":2,
-      "title":"Hobbit",
-      "author": "J.R.R. Tolkien"
+      "id": 2,
+      "title": "Hobbit",
+      "author": "J.R.R. Tolkien",
+      "summary": "The Hobbit is set within Tolkien's fictional universe and follows the quest of home-loving Bilbo Baggins, the titular hobbit, to win a share of the treasure guarded by a dragon named Smaug. Bilbo's journey takes him from his light-hearted, rural surroundings into more sinister territory.",
+      "rating": "5"
     },
     {
-      "id":3,
-      "title":"Game of Thrones",
-      "author": "George R.R. Martin"
+      "id": 3,
+      "title": "Game of Thrones",
+      "author": "George R.R. Martin",
+      "summary": "Several noble houses fight a civil war over who should be king, while an exiled princess tries to find her place in the world, and the kingdom is threatened by some rising supernatural threat in the north. ",
+      "rating": "4"
     }
   ]
 }
