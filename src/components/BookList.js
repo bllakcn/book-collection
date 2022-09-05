@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom"
 
 export default function BookList({books}) {
+  if(books.length === 0){
+    return <div className="text-center text-lg my-5 text-slate-700">No books found</div>
+  }
+
   return (
     <div className="m-14 justify-start my-5 flex flex-wrap gap-5">
       {books.map(book => (
