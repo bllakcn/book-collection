@@ -2,6 +2,7 @@ import { useFetch } from "../hooks/useFetch"
 import { useParams } from "react-router-dom"
 
 export default function Book() {
+
   const {id} = useParams()
   const {data:book, isPending, error} = useFetch(`http://localhost:3000/books/${id}`)
 

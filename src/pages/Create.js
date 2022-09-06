@@ -72,9 +72,7 @@ export default function Create() {
             className="focus:outline-none m-1 px-2 w-12 rounded-md"
           />
         </label>
-        <button className="">
-          <span className="bg-slate-800text-l border-none bg-slate-800 hover:bg-orange-100 text-slate-200 hover:text-slate-700 py-2 px-5 mr-10 border-2 rounded-xl">Submit</span>
-        </button>
+        <button className="w-1/6 mx-auto bg-slate-800text-l border-none bg-slate-800 hover:bg-orange-100 text-slate-200 hover:text-slate-700 py-2 px-5 border-2 rounded-xl">Submit</button>
       </form>
     </div>
   )

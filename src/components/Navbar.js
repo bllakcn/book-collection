@@ -2,12 +2,14 @@ import { Link } from 'react-router-dom'
 import { useTheme } from '../hooks/useTheme'
 
 import Searchbar from './Searchbar'
+import ThemeSelector from './ThemeSelector'
 
 export default function Navbar() {
   const { color } = useTheme()
   
   return (
-    <div className='bg-slate-300'>
+    <div className={color}>
+      <ThemeSelector></ThemeSelector>
       <nav className='flex w-11/12 py-3 mx-auto justify-between items-center'>
         <Link className='font-bold text-4xl text-slate-700 hover:text-slate-500' to='/'>
           <h2 className='p-1'>My Book Collection</h2>
@@ -19,6 +21,6 @@ export default function Navbar() {
           </Link>
         </div>
       </nav>
-    </div>
+    </div> 
   )
 }
