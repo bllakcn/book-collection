@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useTheme } from './hooks/useTheme';
 
 import Navbar from './components/Navbar'
-
 
 import './App.css';
 
@@ -11,8 +11,10 @@ import Search from './pages/Search'
 import Book from './pages/Book'
 
 function App() {
+  const {mode} = useTheme()
+
   return (
-    <div className="bg-slate-100 h-screen">
+    <div className={`${mode}`}>
       <BrowserRouter>
         <Navbar/>      
         <Routes>
